@@ -1,0 +1,70 @@
+
+
+/* Imported .css files */
+
+@import "https://use.fontawesome.com/releases/v5.7.1/css/all.css";   /* FontAwesome .css file */
+@import "additional/animate.css";   /* Animate.css .css file */
+
+
+/* Body style configuration */
+
+body{
+  overflow-x: hidden;
+  font-family: Verdana, sans-serif;
+  background-image: url("../resources/pattern.jpg");
+}
+
+
+/* Main content block style configuration*/
+
+.content-block{
+  padding: 30px;
+  margin: 0 auto;
+  width: 20%;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px grey;
+}
+
+/* Main headers style configuration (adaptive settings). */
+h1{
+  font-size: 150%;
+}
+
+
+/* Links style configuration (adaptive settings)*/
+
+a{color: tomato;}
+
+a:hover{text-decoration: none;}
+
+
+/* Buttons & Input fields style configuration (visual and adaptive settings)*/
+
+div p input[type="submit"],div p input[type="button"]{
+  margin: 0 auto;
+  margin-top: 10px;
+  color: white;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 1.3em;
+  width: 64%;
+  padding: 5px;
+}
+
+/* Submit buttons and Buttons style configuration (visual settings) */
+div p input[type="submit"]:hover,div p input[type="button"]:hover {
+  cursor: pointer;
+  background: linear-gradient(orange, #ce8004);
+  font-weight: bold;
+}
+
+/* Input fields style configuration (visual and adaptive settings)*/
+div p input{
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  font-size: 130%;
+  padding: 5px;
+  width: 75%;
+}

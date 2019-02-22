@@ -1,0 +1,10 @@
+/*
+
+  Login.php's .css file.
+
+*/
+
+/* Sets 10px of bottom margin for the element with id 'login-caption' */
+#login-caption{
+  margin-bottom: 10px;
+}
