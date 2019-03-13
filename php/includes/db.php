@@ -9,7 +9,7 @@
 require "libs/rb.php"; //RedBeanPHP implement.
 
 //Connecting to the MySQL database...
-R::setup( 'mysql:host=localhost;dbname=id6976920_accounts',
-      'id6976920_xidonett', 'superman2012' );
+R::setup( 'mysql:host=localhost;dbname=database_name',
+      'database_user', 'database_password' );
 
 session_start(); //The start of session.
